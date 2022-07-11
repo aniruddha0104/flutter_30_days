@@ -1,0 +1,43 @@
+1>add git path into environmrnt vsriable in pc to use it including git cmd path as well
+2>use git version to check version
+3>use git init to initialize empty repository
+
+1>we have to give configuration of username and email to identify which user performed which changes to do that we have to give config 
+cmd => git config --global user.name "your name"
+git config --global user.email "your email"
+
+2>to check is it actually changed or not use cmd
+cmd => for useremail =>git config --global user.email
+for username => git config --global user.name
+
+3>to edit the above config
+git config --global --edit
+this will open another file containing username and useremail create changes in the file and then save the file the changes will reflect inside the git username and git useremail
+
+4>mkdir <> to create new folder
+
+5>cd <file name> to change to file
+
+6> ls to check if there are any files
+
+7>ls -a to check for git files
+
+8> git log to check history of commit
+
+9> to check status of what happened in file  => git status
+
+10>git add to add files in git it pushes files from initial stage to staging area
+staging area is a phase where files are stored before finally committing 
+
+11> to commit file use => git commit -m "message of commit"
+
+12> git checkout <hex code of commit> is used to go to specific commit you can restore to that specific commit by doing this
+
+13> to go back to original master branch use git checkout master
+
+14> to create new branch git branch <branch name>
+
+15> to switxh to new branch => git checkout <branch name>
+
+16> to create new branch and new file at same time
+=> git checkout -b <filename>/<branchname>
