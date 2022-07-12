@@ -37,7 +37,22 @@ staging area is a phase where files are stored before finally committing
 
 14> to create new branch git branch <branch name>
 
-15> to switxh to new branch => git checkout <branch name>
+15> to switch to new branch => git checkout <branch name>
 
 16> to create new branch and new file at same time
 => git checkout -b <filename>/<branchname>
+
+17> to merge both the files first go to original or main branch and then merge it with another branch you want to merge it with
+cmd => git merge <filename>
+
+18>put your filename in .gitignore file if you dont want it to be added and uploaded on git
+
+19>for pushing already existing repository on github use git remote -v
+
+20> git push -u origin master => to push repository into origin
+
+21> switch to branch to push the code into github then to push code on github cmd => git push
+you can directly do it using git push -u origin <branch name>
+
+
+
